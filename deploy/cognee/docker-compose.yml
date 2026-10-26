@@ -1,0 +1,94 @@
+# backend and import pinned to the Aug 1 2026 main build (commit 38eece5), MCP to 1.5.0
+name: ${COMPOSE_PROJECT_NAME:-gamma-aistronomer}
+services:
+  cognee-import:
+    image: cognee/cognee:main-38eece5
+    # migrate step guards a fully empty volume, then run the import script
+    entrypoint:
+      - sh
+      - -c
+      - |
+        cd /app/cognee && alembic upgrade head || python /app/cognee/modules/engine/operations/setup.py
+        cd /app && python /import-scripts/import_datasets.py
+    env_file: ../../.env
+    environment:
+      COGNEE_ROOT_DIRECTORY: /root/.cognee
+      DATA_ROOT_DIRECTORY: /root/.cognee/data
+      SYSTEM_ROOT_DIRECTORY: /root/.cognee/system
+      CACHE_ROOT_DIRECTORY: /root/.cognee/cache
+      HTTPS_PROXY: ""
+    volumes:
+      - cognee_data:/root/.cognee
+      - ${COGNEE_EXPORT_PATH:-../../data/cache/exported}:/import:ro
+      - ./import_datasets.py:/import-scripts/import_datasets.py:ro
+    networks:
+      - cognee_internal
+    restart: "no"
+
+  cognee-backend:
+    image: cognee/cognee:main-38eece5
+    restart: unless-stopped
+    ports:
+      - "${COGNEE_BACKEND_PORT:-8000}:8000"
+    env_file: ../../.env
+    environment:
+      COGNEE_ROOT_DIRECTORY: /root/.cognee
+      DATA_ROOT_DIRECTORY: /root/.cognee/data
+      SYSTEM_ROOT_DIRECTORY: /root/.cognee/system
+      CACHE_ROOT_DIRECTORY: /root/.cognee/cache
+      CORS_ALLOWED_ORIGINS: "*"
+      HTTPS_PROXY: ""
+    volumes:
+      - cognee_data:/root/.cognee
+    networks:
+      - cognee_internal
+    depends_on:
+      cognee-import:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  cognee-mcp:
+    image: cognee/cognee-mcp:1.5.0
+    restart: unless-stopped
+    ports:
+      - "${COGNEE_MCP_PORT:-8001}:8000"
+    env_file: ../../.env
+    environment:
+      TRANSPORT_MODE: "http"
+      API_URL: "http://cognee-backend:8000"
+      API_TOKEN: "${COGNEE_JWT}"
+      MCP_DISABLE_DNS_REBINDING_PROTECTION: "true"
+      MCP_CORS_ALLOW_ORIGINS: "*"
+      COGNEE_MCP_TOOL_MODE: "minimal"
+      HTTPS_PROXY: ""
+    depends_on:
+      cognee-backend:
+        condition: service_healthy
+    networks:
+      - cognee_internal
+
+  cognee-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    restart: unless-stopped
+    ports:
+      - "${COGNEE_FRONTEND_PORT:-3000}:3000"
+    environment:
+      NEXT_PUBLIC_LOCAL_API_URL: "${COGNEE_SERVICE_URL}"
+    depends_on:
+      cognee-backend:
+        condition: service_healthy
+    networks:
+      - cognee_internal
+
+volumes:
+  cognee_data:
+
+networks:
+  cognee_internal:
+    driver: bridge

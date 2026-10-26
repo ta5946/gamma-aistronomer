@@ -1,0 +1,14 @@
+{
+  "defaultProvider": "custom",
+  "defaultModel": "${AGENT_LLM_MODEL_ID}",
+  "defaultProjectTrust": "always",
+  "packages": [
+    "npm:pi-mcp-adapter@2.26.0",
+    "npm:@narumitw/pi-plan-mode@0.50.1"
+  ],
+  "retry": {
+    "enabled": true,
+    "maxRetries": 8,
+    "baseDelayMs": 2000
+  }
+}

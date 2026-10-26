@@ -1,0 +1,34 @@
+# to run interactively:
+#   docker compose -f pi-compose.yml run --rm --build -it pi
+# for a one-shot prompt:
+#   docker compose -f pi-compose.yml run --rm --build pi -p "<your prompt>"
+# for plan mode run interactively and type "/plan <task>"
+services:
+  pi:
+    build:
+      context: .
+      dockerfile: Dockerfile.gammapy
+    working_dir: /workspace
+    # fill the config templates from .agents.env, then start pi
+    entrypoint:
+      - sh
+      - -c
+      - |
+        for f in models.json settings.json mcp.json; do
+          envsubst '$$AGENT_LLM_ENDPOINT $$AGENT_LLM_API_KEY $$AGENT_LLM_MODEL_ID $$AGENT_LLM_MODEL_NAME $$COGNEE_MCP_URL' < /templates/$$f > /root/.pi/agent/$$f
+        done
+        exec pi "$$@"
+      - pi
+    env_file: ../.agents.env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./workspace:/workspace
+      - ./settings.json:/templates/settings.json:ro
+      - ./models.json:/templates/models.json:ro
+      - ./mcp.json:/templates/mcp.json:ro
+      - ../prompts/system_prompt.md:/workspace/AGENTS.md:ro
+      - ${CTAO_DATA_PATH:-../data/cache/gammapy/ctao-data}:/workspace/data/ctao-data:ro
+      - ${HGPS_PAPER_PATH:-../data/cache/hgps/1804.02432.pdf}:/workspace/paper/1804.02432.pdf:ro
+      - ${GAMMAPY_EBL_DATA_PATH:-../data/cache/gammapy/gammapy-datasets/2.1/ebl}:/workspace/data/ebl:ro
+      - ./workspace/pi_stats:/root/.pi/agent/sessions

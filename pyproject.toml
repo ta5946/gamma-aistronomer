@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gammai"
+version = "0.1.0"
+description = "A memory-augmented coding agent for gamma-ray source analysis with the Gammapy library"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.13"
+authors = [{ name = "Tjaš Ajdovec" }, { name = "Dmitriy Kostunin" }]
+# direct dependencies plus the pinned notebook stack, pip resolves the rest
+dependencies = [
+    "gammapy==2.1",
+    "astropy==7.2.0",
+    "iminuit==2.32.0",
+    "numpy==2.5.1",
+    "scipy==1.18.0",
+    "matplotlib==3.10.9",
+    "regions==0.11",
+    "cognee==1.4.0",
+    "mcp==2.3.0",
+    "openai==2.48.0",
+    "python-dotenv==1.2.2",
+    "pypdf==6.14.2",
+    "tqdm==4.69.0",
+    "psutil==7.2.2",
+    "ipykernel==7.3.0",
+    "jupyter-client==8.9.1",
+    "jupyter-core==5.9.1",
+    "nbformat==5.10.4",
+    "nbconvert==7.17.1",
+    "nbclient==0.11.0",
+]
+
+[project.urls]
+Repository = "https://codebase.helmholtz.cloud/astroagentlab/gamma-aistronomer"
+
+[project.scripts]
+gammai = "gammai.cli:main"
+
+# install only src/gammai, other scripts and notebooks run directly
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["gammai"]

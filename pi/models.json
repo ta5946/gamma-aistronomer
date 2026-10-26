@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "custom": {
+      "name": "Custom provider",
+      "baseUrl": "${AGENT_LLM_ENDPOINT}",
+      "api": "openai-completions",
+      "apiKey": "${AGENT_LLM_API_KEY}",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": false
+      },
+      "models": [
+        {
+          "id": "${AGENT_LLM_MODEL_ID}",
+          "name": "${AGENT_LLM_MODEL_NAME}"
+        }
+      ]
+    }
+  }
+}

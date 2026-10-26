@@ -1,0 +1,1980 @@
+{
+  "last_updated": "2026-08-18",
+  "whitepaper": {
+    "title": "Science with the Cherenkov Telescope Array",
+    "url": "https://arxiv.org/pdf/1709.07997",
+    "type": "pdf",
+    "sets": ["papers", "CTA"],
+    "n_pages": 213,
+    "n_citations": 697
+  },
+  "related_papers": [
+    {
+      "title": "Gammapy: A Python package for gamma-ray astronomy",
+      "url": "https://arxiv.org/pdf/2308.13584",
+      "type": "pdf",
+      "sets": ["papers", "GAMMAPY"],
+      "n_pages": 25,
+      "n_citations": 59
+    },
+    {
+      "title": "H.E.S.S. observations of composite Seyfert–starburst galaxies",
+      "url": "https://arxiv.org/pdf/2603.21912",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 0
+    },
+    {
+      "title": "Search for long-term variability of HESS J1745–290",
+      "url": "https://arxiv.org/pdf/2605.10827",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 0
+    },
+    {
+      "title": "Scrutinizing the 2020 multiwavelength outburst of PKS 0903–57 through observations with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/2603.12855",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 0
+    },
+    {
+      "title": "H.E.S.S. detection of the PSR J0855−4644 nebula",
+      "url": "https://arxiv.org/pdf/2602.14640",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 0
+    },
+    {
+      "title": "The second H.E.S.S. gamma-ray burst catalogue: 15 years of observations with the H.E.S.S. telescopes",
+      "url": "https://arxiv.org/pdf/2603.21741",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 19,
+      "n_citations": 0
+    },
+    {
+      "title": "Combined dark matter search towards dwarf spheroidal galaxies with Fermi-LAT, HAWC, H.E.S.S., MAGIC, and VERITAS",
+      "url": "https://arxiv.org/pdf/2508.20229",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 46,
+      "n_citations": 6
+    },
+    {
+      "title": "H.E.S.S. detection and multi-wavelength study of the z∼1 blazar PKS 0346–27",
+      "url": "https://arxiv.org/pdf/2512.24228",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 3
+    },
+    {
+      "title": "Constraining the nature of the most extreme Galactic particle accelerator: H.E.S.S. observations of the microquasar V4641 Sgr",
+      "url": "https://arxiv.org/pdf/2511.10537",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 7
+    },
+    {
+      "title": "Prompt Searches for Very-high-energy γ-Ray Counterparts to IceCube Astrophysical Neutrino Alerts",
+      "url": "https://arxiv.org/pdf/2512.16562",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 44,
+      "n_citations": 0
+    },
+    {
+      "title": "H.E.S.S. programme searching for VHE gamma rays associated with FRBs",
+      "url": "https://arxiv.org/pdf/2507.02143",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 22,
+      "n_citations": 2
+    },
+    {
+      "title": "The H.E.S.S. extragalactic sky survey with the first decade of observations",
+      "url": "https://arxiv.org/pdf/2504.21221",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 4
+    },
+    {
+      "title": "Detection of very high-energy gamma-ray emission from Eta Carinae during its 2020 periastron passage",
+      "url": "https://arxiv.org/pdf/2501.12238",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 3
+    },
+    {
+      "title": "Broadband multi-wavelength properties of M87 during the 2018 EHT campaign including a very high energy flaring episode",
+      "url": "https://arxiv.org/pdf/2404.17623",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 44,
+      "n_citations": 34
+    },
+    {
+      "title": "High-Statistics Measurement of the Cosmic-Ray Electron Spectrum with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/2411.08189",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 16
+    },
+    {
+      "title": "Very-high-energy γ-ray emission from young massive star clusters in the Large Magellanic Cloud",
+      "url": "https://arxiv.org/pdf/2407.16219",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 21,
+      "n_citations": 8
+    },
+    {
+      "title": "H.E.S.S. observations of the 2021 periastron passage of PSR B1259-63/LS 2883",
+      "url": "https://arxiv.org/pdf/2406.18167",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 5
+    },
+    {
+      "title": "Spectrum and extension of the inverse-Compton emission of the Crab Nebula from a combined Fermi-LAT and H.E.S.S. analysis",
+      "url": "https://arxiv.org/pdf/2403.12608",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 24,
+      "n_citations": 15
+    },
+    {
+      "title": "Unveiling extended gamma-ray emission around HESS J1813-178",
+      "url": "https://arxiv.org/pdf/2403.16802",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 19,
+      "n_citations": 0
+    },
+    {
+      "title": "Curvature in the very-high energy gamma-ray spectrum of M87",
+      "url": "https://arxiv.org/pdf/2402.13330",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 11
+    },
+    {
+      "title": "TeV flaring activity of the AGN PKS 0625–354 in November 2018",
+      "url": "https://arxiv.org/pdf/2401.07071",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 4
+    },
+    {
+      "title": "Acceleration and transport of relativistic electrons in the jets of the microquasar SS 433",
+      "url": "https://arxiv.org/pdf/2401.16019",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 55,
+      "n_citations": 52
+    },
+    {
+      "title": "Discovery of a radiation component from the Vela pulsar reaching 20 teraelectronvolts",
+      "url": "https://arxiv.org/pdf/2310.06181",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 38,
+      "n_citations": 20
+    },
+    {
+      "title": "Multiwavelength Observations of the Blazar PKS 0735+178 in Spatial and Temporal Coincidence with an Astrophysical Neutrino Candidate IceCube-211208A",
+      "url": "https://arxiv.org/pdf/2306.17819",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 21,
+      "n_citations": null
+    },
+    {
+      "title": "The vanishing of the primary emission region in PKS 1510-089",
+      "url": "https://arxiv.org/pdf/2307.01692",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 18,
+      "n_citations": null
+    },
+    {
+      "title": "Constraining the cosmic-ray pressure in the inner Virgo Cluster using H.E.S.S. observations of M 87",
+      "url": "https://arxiv.org/pdf/2305.09607",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 8
+    },
+    {
+      "title": "Constraints on the intergalactic magnetic field using Fermi-LAT and H.E.S.S. blazar observations",
+      "url": "https://arxiv.org/pdf/2306.05132",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 46
+    },
+    {
+      "title": "Detection of extended gamma-ray emission around the Geminga pulsar with H.E.S.S",
+      "url": "https://arxiv.org/pdf/2304.02631",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 19
+    },
+    {
+      "title": "Search for the evaporation of primordial black holes with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/2303.12855",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 10
+    },
+    {
+      "title": "HESS J1809–193: a halo of escaped electrons around a pulsar wind nebula?",
+      "url": "https://arxiv.org/pdf/2302.13663",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 16
+    },
+    {
+      "title": "H.E.S.S. follow-up observations of GRB221009A",
+      "url": "https://arxiv.org/pdf/2303.10558",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 19
+    },
+    {
+      "title": "A deep spectromorphological study of the γ-ray emission surrounding the young massive stellar cluster Westerlund 1",
+      "url": "https://arxiv.org/pdf/2207.10921",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 19,
+      "n_citations": 29
+    },
+    {
+      "title": "Gamma-ray observations of MAXI J1820+070 during the 2018 outburst",
+      "url": "https://arxiv.org/pdf/2209.09785",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 8
+    },
+    {
+      "title": "Search for dark matter annihilation signals in the H.E.S.S. Inner Galaxy Survey",
+      "url": "https://arxiv.org/pdf/2207.10471",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 17,
+      "n_citations": 94
+    },
+    {
+      "title": "Evidence for gamma-ray emission from the Kepler supernova remnant from deep H.E.S.S. observations",
+      "url": "https://arxiv.org/pdf/2201.05839",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 6
+    },
+    {
+      "title": "A MeerKAT, e-MERLIN, H.E.S.S. and Swift search for persistent and transient emission associated with three localised FRBs",
+      "url": "https://arxiv.org/pdf/2201.00069",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 11
+    },
+    {
+      "title": "Time-resolved hadronic particle acceleration in the recurrent nova RS Ophiuchi",
+      "url": "https://arxiv.org/pdf/2202.08201",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 48,
+      "n_citations": 52
+    },
+    {
+      "title": "Observation of the gamma-ray binary HESS J0632+057 with the H.E.S.S., MAGIC, and VERITAS telescopes",
+      "url": "https://arxiv.org/pdf/2109.11894",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 35,
+      "n_citations": 15
+    },
+    {
+      "title": "H.E.S.S. follow-up observations of Binary Black Hole Coalescence events during the second and third Gravitational Waves observing runs of Advanced LIGO and Advanced Virgo",
+      "url": "https://arxiv.org/pdf/2112.08307",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 18,
+      "n_citations": 8
+    },
+    {
+      "title": "LMC N132D: A mature supernova remnant with a power-law gamma-ray spectrum extending beyond 8 TeV",
+      "url": "https://arxiv.org/pdf/2108.02015",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 9
+    },
+    {
+      "title": "Evidence of 100 TeV gamma-ray emission from HESS J1702-420: A new PeVatron candidate",
+      "url": "https://arxiv.org/pdf/2106.06405",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 24,
+      "n_citations": 15
+    },
+    {
+      "title": "Searching for TeV gamma-ray emission from SGR 1935+2154 during its 2020 X-ray and radio bursting phase",
+      "url": "https://arxiv.org/pdf/2110.00636",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 8
+    },
+    {
+      "title": "Search for dark matter annihilation signals from unidentified Fermi-LAT objects with H.E.S.S",
+      "url": "https://arxiv.org/pdf/2106.00551",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 9
+    },
+    {
+      "title": "TeV emission of Galactic plane sources with HAWC and H.E.S.S",
+      "url": "https://arxiv.org/pdf/2107.01425",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 17,
+      "n_citations": 18
+    },
+    {
+      "title": "Revealing x-ray and gamma ray temporal and spectral similarities in the GRB 190829A afterglow",
+      "url": "https://arxiv.org/pdf/2106.02510",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 50,
+      "n_citations": 129
+    },
+    {
+      "title": "Search for dark matter annihilation in the Wolf-Lundmark-Melotte dwarf irregular galaxy with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/2105.04325",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 9
+    },
+    {
+      "title": "Broadband Multi-wavelength Properties of M87 during the 2017 Event Horizon Telescope Campaign",
+      "url": "https://arxiv.org/pdf/2104.06855",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 43,
+      "n_citations": 91
+    },
+    {
+      "title": "H.E.S.S. and MAGIC observations of a sudden cessation of a very-high-energy γ-ray flare in PKS 1510−089 in May 2016",
+      "url": "https://arxiv.org/pdf/2012.10254",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 25,
+      "n_citations": 0
+    },
+    {
+      "title": "An extreme particle accelerator in the Galactic plane: HESS J1826–130",
+      "url": "https://arxiv.org/pdf/2010.13101",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 13
+    },
+    {
+      "title": "Search for dark matter signals towards a selection of recently detected DES dwarf galaxy satellites of the Milky Way with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/2008.00688",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 21,
+      "n_citations": 37
+    },
+    {
+      "title": "Simultaneous observations of the blazar PKS 2155−304 from ultra-violet to TeV energies",
+      "url": "https://arxiv.org/pdf/1912.07273",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 22,
+      "n_citations": 11
+    },
+    {
+      "title": "Resolving acceleration to very high energies along the jet of Centaurus A",
+      "url": "https://arxiv.org/pdf/2007.04823",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 32,
+      "n_citations": 56
+    },
+    {
+      "title": "Probing the magnetic field in the GW170817 outflow using H.E.S.S. observations",
+      "url": "https://arxiv.org/pdf/2004.10105",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 13
+    },
+    {
+      "title": "Very high energy γ-ray emission from two blazars of unknown redshift and upper limits on their distance",
+      "url": "https://arxiv.org/pdf/2004.03306",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 15
+    },
+    {
+      "title": "Detection of very-high-energy γ-ray emission from the colliding wind binary η Car with H.E.S.S",
+      "url": "https://arxiv.org/pdf/2002.02336",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": null
+    },
+    {
+      "title": "H.E.S.S. detection of very high-energy γ-ray emission from the quasar PKS 0736+017",
+      "url": "https://arxiv.org/pdf/1911.04761",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": null
+    },
+    {
+      "title": "H.E.S.S. and Fermi-LAT observations of PSR B1259–63/LS 2883 during its 2014 and 2017 periastron passages",
+      "url": "https://arxiv.org/pdf/1912.05868",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": null
+    },
+    {
+      "title": "A very-high-energy component deep in the gamma-ray burst afterglow",
+      "url": "https://arxiv.org/pdf/1911.08961",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 22,
+      "n_citations": 223
+    },
+    {
+      "title": "Resolving the Crab pulsar wind nebula at teraelectronvolt energies",
+      "url": "https://arxiv.org/pdf/1909.09494",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 32
+    },
+    {
+      "title": "Constraints on the emission region of 3C 279 during strong flares in 2014 and 2015 through VHE γ-ray observations with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1906.04996",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 33
+    },
+    {
+      "title": "H.E.S.S. and Suzaku observations of the Vela X pulsar wind nebula",
+      "url": "https://arxiv.org/pdf/1905.07975",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 16
+    },
+    {
+      "title": "Upper limits on very-high-energy gamma-ray emission from core-collapse supernovae observed with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1904.10526",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 16
+    },
+    {
+      "title": "H.E.S.S. observations of the flaring gravitationally lensed galaxy PKS 1830–211",
+      "url": "https://arxiv.org/pdf/1904.05139",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 5
+    },
+    {
+      "title": "Particle transport within the pulsar wind nebula HESS J1825–137",
+      "url": "https://arxiv.org/pdf/1810.12676",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 55
+    },
+    {
+      "title": "The 2014 TeV γ-Ray Flare of Mrk 501 Seen with H.E.S.S.: Temporal and Spectral Constraints on Lorentz Invariance Violation",
+      "url": "https://arxiv.org/pdf/1901.05209",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 71
+    },
+    {
+      "title": "First ground-based measurement of sub-20 GeV to 100 GeV γ-Rays from the Vela pulsar with H.E.S.S. II",
+      "url": "https://arxiv.org/pdf/1807.01302",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 34
+    },
+    {
+      "title": "Searches for gamma-ray lines and ‘pure WIMP’ spectra from Dark Matter annihilations in dwarf galaxies with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1810.00995",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 61
+    },
+    {
+      "title": "The γ-ray spectrum of the core of Centaurus A as observed with H.E.S.S. and Fermi-LAT",
+      "url": "https://arxiv.org/pdf/1807.07375",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 39
+    },
+    {
+      "title": "VHE γ-ray discovery and multiwavelength study of the blazar 1ES 2322−409",
+      "url": "https://arxiv.org/pdf/1810.04641",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 2
+    },
+    {
+      "title": "The starburst galaxy NGC 253 revisited by H.E.S.S. and Fermi-LAT",
+      "url": "https://arxiv.org/pdf/1806.03866",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 42
+    },
+    {
+      "title": "Multimessenger observations of a flaring blazar coincident with high-energy neutrino IceCube-170922A",
+      "url": "https://arxiv.org/pdf/1807.08816",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 70,
+      "n_citations": 917
+    },
+    {
+      "title": "Search for γ -Ray Line Signals from Dark Matter Annihilations in the Inner Galactic Halo from 10 Years of Observations with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1805.05741",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 152
+    },
+    {
+      "title": "Constraints on particle acceleration in SS433/W50 from MAGIC and H.E.S.S. observations",
+      "url": "https://arxiv.org/pdf/1707.03658",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 19
+    },
+    {
+      "title": "HESS J1741−302: a hidden accelerator in the Galactic plane",
+      "url": "https://arxiv.org/pdf/1711.01350",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": null
+    },
+    {
+      "title": "Systematic search for very-high-energy gamma-ray emission from bow shocks of runaway stars",
+      "url": "https://arxiv.org/pdf/1705.02263",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 19
+    },
+    {
+      "title": "Extended VHE γ-ray emission towards SGR1806−20, LBV 1806−20, and stellar cluster Cl* 1806−20",
+      "url": "https://arxiv.org/pdf/1606.05404",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 3
+    },
+    {
+      "title": "A search for very high-energy flares from the microquasars GRS 1915+105, Circinus X-1, and V4641 Sgr using contemporaneous H.E.S.S. and RXTE observations",
+      "url": "https://arxiv.org/pdf/1607.04613",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 14
+    },
+    {
+      "title": "Characterising the VHE diffuse emission in the central 200 parsecs of our Galaxy with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1706.04535",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 95
+    },
+    {
+      "title": "A search for new supernova remnant shells in the Galactic plane with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1801.06020",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 24,
+      "n_citations": 4
+    },
+    {
+      "title": "Deeper H.E.S.S. observations of Vela Junior (RX J0852.0−4622): Morphology studies and resolved spectroscopy",
+      "url": "https://arxiv.org/pdf/1611.01863",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 14,
+      "n_citations": 15
+    },
+    {
+      "title": "H.E.S.S. observations of RX J1713.7−3946 with improved angular and spectral resolution: Evidence for gamma-ray emission extending beyond the X-ray emitting shell",
+      "url": "https://arxiv.org/pdf/1609.08671",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 33,
+      "n_citations": 126
+    },
+    {
+      "title": "The supernova remnant W49B as seen with H.E.S.S. and Fermi-LAT",
+      "url": "https://arxiv.org/pdf/1609.00600",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 51
+    },
+    {
+      "title": "Detailed spectral and morphological analysis of the shell type supernova remnant RCW 86",
+      "url": "https://arxiv.org/pdf/1601.04461",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 5
+    },
+    {
+      "title": "Population study of Galactic supernova remnants at very high γ-ray energies with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1802.05172",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 48
+    },
+    {
+      "title": "The population of TeV pulsar wind nebulae in the H.E.S.S. Galactic Plane Survey",
+      "url": "https://arxiv.org/pdf/1702.08280",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 28,
+      "n_citations": 145
+    },
+    {
+      "title": "The H.E.S.S. Galactic plane survey",
+      "url": "https://arxiv.org/pdf/1804.02432",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 79,
+      "n_citations": 289
+    },
+    {
+      "title": "Detection of variable VHE γ-ray emission from the extra-galactic γ-ray binary LMC P3",
+      "url": "https://arxiv.org/pdf/1801.06322",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 10
+    },
+    {
+      "title": "H.E.S.S. discovery of very high energy γ-ray emission from PKS 0625−354",
+      "url": "https://arxiv.org/pdf/1802.07611",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 25
+    },
+    {
+      "title": "TeV Gamma-Ray Observations of the Binary Neutron Star Merger GW170817 with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1710.05862",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 47
+    },
+    {
+      "title": "Multi-messenger Observations of a Binary Neutron Star Merger",
+      "url": "https://arxiv.org/pdf/1710.05833",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 59,
+      "n_citations": 1051
+    },
+    {
+      "title": "Measurement of the EBL spectral energy distribution using the VHE γ-ray spectra of H.E.S.S. blazars",
+      "url": "https://arxiv.org/pdf/1707.06090",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": null
+    },
+    {
+      "title": "A polarized fast radio burst at low Galactic latitude",
+      "url": "https://arxiv.org/pdf/1705.02911",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 19,
+      "n_citations": 88
+    },
+    {
+      "title": "Gamma-ray blazar spectra with H.E.S.S. II mono analysis: The case of PKS 2155−304 and PG 1553+113",
+      "url": "https://arxiv.org/pdf/1612.01843",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 28
+    },
+    {
+      "title": "Characterizing the γ-ray long-term variability of PKS 2155−304 with H.E.S.S. and Fermi-LAT",
+      "url": "https://arxiv.org/pdf/1610.03311",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 49
+    },
+    {
+      "title": "First limits on the very-high energy gamma-ray afterglow emission of a fast radio burst: H.E.S.S. observations of FRB 150418",
+      "url": "https://arxiv.org/pdf/1611.09209",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 14
+    },
+    {
+      "title": "H.E.S.S. Limits on Linelike Dark Matter Signatures in the 100 GeV to 2 TeV Energy Range Close to the Galactic Center",
+      "url": "https://arxiv.org/pdf/1609.08091",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 47
+    },
+    {
+      "title": "Search for Dark Matter Annihilations towards the Inner Galactic Halo from 10 Years of Observations with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1607.08142",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 254
+    },
+    {
+      "title": "Acceleration of petaelectronvolt protons in the Galactic Centre",
+      "url": "https://arxiv.org/pdf/1603.07730",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 29,
+      "n_citations": 451
+    },
+    {
+      "title": "Discovery of variable VHE γ-ray emission from the binary system 1FGL J1018.6–5856",
+      "url": "https://arxiv.org/pdf/1503.02711",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 13
+    },
+    {
+      "title": "The 2012 flare of PG 1553+113 seen with H.E.S.S. and Fermi-LAT",
+      "url": "https://arxiv.org/pdf/1501.05087",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 39,
+      "n_citations": 50
+    },
+    {
+      "title": "H.E.S.S. reveals a lack of TeV emission from the supernova remnant Puppis A",
+      "url": "https://arxiv.org/pdf/1412.6997",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 21
+    },
+    {
+      "title": "Constraints on an Annihilation Signal from a Core of Constant Dark Matter Density around the Milky Way Center with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1502.03244",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 43
+    },
+    {
+      "title": "H.E.S.S. detection of TeV emission from the interaction region between the supernova remnant G349.7+0.2 and a molecular cloud",
+      "url": "https://arxiv.org/pdf/1412.2251",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 4
+    },
+    {
+      "title": "The exceptionally powerful TeV γ-ray emitters in the Large Magellanic Cloud",
+      "url": "https://arxiv.org/pdf/1501.06578",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 120
+    },
+    {
+      "title": "Probing the gamma-ray emission from HESS J1834–087 using H.E.S.S. and Fermi LAT observations",
+      "url": "https://arxiv.org/pdf/1407.0862",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 31
+    },
+    {
+      "title": "Diffuse Galactic gamma-ray emission with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1411.7568",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 91
+    },
+    {
+      "title": "Search for dark matter annihilation signatures in H.E.S.S. observations of dwarf spheroidal galaxies",
+      "url": "https://arxiv.org/pdf/1410.2589",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 107
+    },
+    {
+      "title": "The high-energy γ-ray emission of AP Librae",
+      "url": "https://arxiv.org/pdf/1410.5897",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 21
+    },
+    {
+      "title": "Discovery of the VHE gamma-ray source HESS J1832−093 in the vicinity of SNR G22.7−0.2",
+      "url": "https://arxiv.org/pdf/1411.0572",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 27
+    },
+    {
+      "title": "Long-term monitoring of PKS 2155−304 with ATOM and H.E.S.S.: investigation of optical/γ-ray correlations in different spectral states",
+      "url": "https://arxiv.org/pdf/1409.0253",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 5
+    },
+    {
+      "title": "Discovery of the Hard Spectrum VHE γ-Ray Source HESS J1641–463",
+      "url": "https://arxiv.org/pdf/1408.5280",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 24,
+      "n_citations": 36
+    },
+    {
+      "title": "TeV γ-ray observations of the young synchrotron-dominated SNRs G1.9+0.3 and G330.2+1.0 with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1404.1613",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 20
+    },
+    {
+      "title": "The camera of the fifth H.E.S.S. telescope. Part I: System description",
+      "url": "https://arxiv.org/pdf/1310.5877",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 27
+    },
+    {
+      "title": "The H.E.S.S. central data acquisition system",
+      "url": "https://arxiv.org/pdf/1311.3486",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 17,
+      "n_citations": 22
+    },
+    {
+      "title": "Search for TeV Gamma-ray Emission from GRB 100621A, an extremely bright GRB in X-rays, with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1405.0488",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 191
+    },
+    {
+      "title": "Flux upper limits for 47 AGN observed with H.E.S.S. in 2004−2011",
+      "url": "https://arxiv.org/pdf/1402.2332",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 40
+    },
+    {
+      "title": "Search for extended γ-ray emission around AGN with H.E.S.S. and Fermi-LAT",
+      "url": "https://arxiv.org/pdf/1401.2915",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 59
+    },
+    {
+      "title": "HESS J1640−465 – an exceptionally luminous TeV γ-ray supernova remnant",
+      "url": "https://arxiv.org/pdf/1401.4388",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 6
+    },
+    {
+      "title": "H.E.S.S. observations of the Crab during its March 2013 GeV gamma-ray flare",
+      "url": "https://arxiv.org/pdf/1311.3187",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 50
+    },
+    {
+      "title": "HESS J1818–154, a new composite supernova remnant discovered in TeV gamma rays and X-rays",
+      "url": "https://arxiv.org/pdf/1310.6956",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 14
+    },
+    {
+      "title": "Long-term TeV and X-Ray Observations of the Gamma-Ray Binary HESS J0632+057",
+      "url": "https://arxiv.org/pdf/1311.6083",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 35,
+      "n_citations": 44
+    },
+    {
+      "title": "Discovery of very high energy γ-ray emission from the BL Lacertae object PKS 0301−243 with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1309.6174",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 25
+    },
+    {
+      "title": "Constraints on axionlike particles with H.E.S.S. from the irregularity of the PKS 2155–304 energy spectrum",
+      "url": "https://arxiv.org/pdf/1311.3148",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 142
+    },
+    {
+      "title": "HESS and Fermi-LAT discovery of γ-rays from the blazar 1ES 1312−423",
+      "url": "https://arxiv.org/pdf/1306.3186",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 34
+    },
+    {
+      "title": "H.E.S.S. discovery of VHE γ-rays from the quasar PKS 1510−089",
+      "url": "https://arxiv.org/pdf/1304.8071",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 78
+    },
+    {
+      "title": "Discovery of high and very high-energy emission from the BL Lacertae object SHBL J001355.9–185406",
+      "url": "https://arxiv.org/pdf/1304.4023",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 25
+    },
+    {
+      "title": "Discovery of TeV γ-ray emission from PKS 0447–439 and derivation of an upper limit on its redshift",
+      "url": "https://arxiv.org/pdf/1303.1628",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 37
+    },
+    {
+      "title": "H.E.S.S. observations of the binary system PSR B1259-63/LS 2883 around the 2010/2011 periastron passage",
+      "url": "https://arxiv.org/pdf/1301.3930",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 36
+    },
+    {
+      "title": "Search for very-high-energy γ-ray emission from Galactic globular clusters with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1301.1678",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 16
+    },
+    {
+      "title": "Search for Photon-Linelike Signatures from Dark Matter Annihilations with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1301.1173",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 211
+    },
+    {
+      "title": "Measurement of the extragalactic background light imprint on the spectra of the brightest blazars observed with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1212.3409",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 188
+    },
+    {
+      "title": "Identification of HESS J1303−631 as a pulsar wind nebula through γ-ray, X-ray, and radio observations",
+      "url": "https://arxiv.org/pdf/1210.6513",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 35
+    },
+    {
+      "title": "Probing the extent of the non-thermal emission from the Vela X region at TeV energies with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1210.1359",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 83
+    },
+    {
+      "title": "Spectral Analysis and Interpretation of the γ-Ray Emission from the Starburst Galaxy NGC 253",
+      "url": "https://arxiv.org/pdf/1205.5485",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 53
+    },
+    {
+      "title": "Constraints on the gamma-ray emission from the cluster-scale AGN outburst in the Hydra A galaxy cluster",
+      "url": "https://arxiv.org/pdf/1208.1370",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 12
+    },
+    {
+      "title": "Discovery of gamma-ray emission from the extragalactic pulsar wind nebula N 157B with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1208.1636",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 15
+    },
+    {
+      "title": "HESS observations of the Carina nebula and its enigmatic colliding wind binary Eta Carinae",
+      "url": "https://arxiv.org/pdf/1204.5690",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 17
+    },
+    {
+      "title": "Discovery of VHE γ-ray emission and multi-wavelength observations of the BL Lacertae object 1RXS J101015.9−311909",
+      "url": "https://arxiv.org/pdf/1204.1964",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 23
+    },
+    {
+      "title": "Search for Dark Matter Annihilation Signals from the Fornax Galaxy Cluster with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1202.5494",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 32,
+      "n_citations": 72
+    },
+    {
+      "title": "Discovery of VHE emission towards the Carina arm region with the H.E.S.S. telescope array: HESS J1018–589",
+      "url": "https://arxiv.org/pdf/1203.3215",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 29
+    },
+    {
+      "title": "A multiwavelength view of the flaring state of PKS 2155-304 in 2006",
+      "url": "https://arxiv.org/pdf/1201.4135",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 24,
+      "n_citations": 35
+    },
+    {
+      "title": "Discovery of hard-spectrum γ-ray emission from the BL Lacertae object 1ES 0414+009",
+      "url": "https://arxiv.org/pdf/1201.2044",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 35
+    },
+    {
+      "title": "The 2010 Very High Energy γ-Ray Flare and 10 Years of Multi-wavelength Observations of M 87",
+      "url": "https://arxiv.org/pdf/1111.5341",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 19,
+      "n_citations": 116
+    },
+    {
+      "title": "Discovery of extended VHE γ-ray emission from the vicinity of the young massive stellar cluster Westerlund 1",
+      "url": "https://arxiv.org/pdf/1111.2043",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 59
+    },
+    {
+      "title": "Discovery of the source HESS J1356-645 associated with the young and energetic PSR J1357-6429",
+      "url": "https://arxiv.org/pdf/1108.2855",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 20
+    },
+    {
+      "title": "Simultaneous multi-wavelength campaign on PKS 2005-489 in a high state",
+      "url": "https://arxiv.org/pdf/1111.3331",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 19
+    },
+    {
+      "title": "Very-high-energy gamma-ray emission from the direction of the Galactic globular cluster Terzan 5",
+      "url": "https://arxiv.org/pdf/1106.4069",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 36
+    },
+    {
+      "title": "A new SNR with TeV shell-type morphology: HESS J1731-347",
+      "url": "https://arxiv.org/pdf/1105.3206",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 67
+    },
+    {
+      "title": "H.E.S.S. Observations of the Globular Clusters NGC 6388 and M15 and Search for a Dark Matter Signal",
+      "url": "https://arxiv.org/pdf/1104.2548",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 21,
+      "n_citations": 36
+    },
+    {
+      "title": "Search for a Dark Matter Annihilation Signal from the Galactic Center Halo with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1103.3266",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 248
+    },
+    {
+      "title": "HESS J1943+213: a candidate extreme BL Lacertae object",
+      "url": "https://arxiv.org/pdf/1103.0763",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 31
+    },
+    {
+      "title": "Detection of very-high-energy γ-ray emission from the vicinity of PSR B1706–44 and G 343.1–2.3 with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/1102.0773",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 13
+    },
+    {
+      "title": "Search for Lorentz Invariance breaking with a likelihood fit of the PKS 2155-304 flare data taken on MJD 53944",
+      "url": "https://arxiv.org/pdf/1101.3650",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 24,
+      "n_citations": 115
+    },
+    {
+      "title": "H.E.S.S. constraints on dark matter annihilations towards the Sculptor and Carina dwarf galaxies",
+      "url": "https://arxiv.org/pdf/1012.5602",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 25,
+      "n_citations": 97
+    },
+    {
+      "title": "Discovery and follow-up studies of the extended, off-plane, VHE gamma-ray source HESS J1507-622",
+      "url": "https://arxiv.org/pdf/1010.4907",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 14
+    },
+    {
+      "title": "Revisiting the Westerlund 2 field with the HESS telescope array",
+      "url": "https://arxiv.org/pdf/1009.3012",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 33
+    },
+    {
+      "title": "Discovery of VHE γ-rays from the BL Lacertae object PKS 0548-322",
+      "url": "https://arxiv.org/pdf/1006.5289",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 26
+    },
+    {
+      "title": "VHE γ-ray emission of PKS 2155-304: spectral and temporal variability",
+      "url": "https://arxiv.org/pdf/1005.3702",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 17,
+      "n_citations": 83
+    },
+    {
+      "title": "Multi-wavelength observations of H 2356-309",
+      "url": "https://arxiv.org/pdf/1004.2089",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 25
+    },
+    {
+      "title": "First detection of VHE γ-rays from SN 1006 by HESS",
+      "url": "https://arxiv.org/pdf/1004.2124",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 83
+    },
+    {
+      "title": "PKS 2005-489 at VHE: four years of monitoring with HESS and simultaneous multi-wavelength observations",
+      "url": "https://arxiv.org/pdf/0911.2709",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 29
+    },
+    {
+      "title": "Localizing the VHE γ-ray source at the Galactic Centre",
+      "url": "https://arxiv.org/pdf/0911.1912",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 59
+    },
+    {
+      "title": "Probing the ATIC peak in the cosmic-ray electron spectrum with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/0905.0105",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 4,
+      "n_citations": 432
+    },
+    {
+      "title": "Detection of Gamma Rays from a Starburst Galaxy",
+      "url": "https://arxiv.org/pdf/0909.4651",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 24,
+      "n_citations": 30
+    },
+    {
+      "title": "Spectrum and variability of the Galactic center VHE γ-ray source HESS J1745-290",
+      "url": "https://arxiv.org/pdf/0906.1247",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 96
+    },
+    {
+      "title": "Radio Imaging of the Very-High-Energy γ-Ray Emission Region in the Central Engine of a Radio Galaxy",
+      "url": "https://arxiv.org/pdf/0908.0511",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 21,
+      "n_citations": 225
+    },
+    {
+      "title": "Simultaneous multiwavelength observations of the second exceptional γ-ray flare of PKS 2155-304 in July 2006",
+      "url": "https://arxiv.org/pdf/0906.2002",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 22,
+      "n_citations": 85
+    },
+    {
+      "title": "Constraints on the multi-TeV particle population in the Coma galaxy cluster with HESS observations",
+      "url": "https://arxiv.org/pdf/0907.0727",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 49
+    },
+    {
+      "title": "Detection of very high energy radiation from HESS J1908+063 confirms the Milagro unidentified source MGRO J1908+06",
+      "url": "https://arxiv.org/pdf/0904.3409",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 51
+    },
+    {
+      "title": "Simultaneous Observations of PKS 2155-304 with HESS, Fermi, RXTE, and Atom: Spectral Energy Distributions and Variability in a Low State",
+      "url": "https://arxiv.org/pdf/0903.2924",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 17,
+      "n_citations": 34
+    },
+    {
+      "title": "HESS upper limit on the very high energy γ-ray emission from the globular cluster 47 Tucanae",
+      "url": "https://arxiv.org/pdf/0904.0361",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 17
+    },
+    {
+      "title": "Discovery of Very High Energy γ-Ray Emission from Centaurus A with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/0903.1582",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 119
+    },
+    {
+      "title": "Discovery of Gamma-Ray Emission From the Shell-Type Supernova Remnant RCW 86 With HESS",
+      "url": "https://arxiv.org/pdf/0810.2689",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 95
+    },
+    {
+      "title": "HESS observations of γ-ray bursts in 2003-2007",
+      "url": "https://arxiv.org/pdf/0901.2187",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 35
+    },
+    {
+      "title": "A Search for a Dark Matter Annihilation Signal Toward the Canis Major Overdensity with H.E.S.S.",
+      "url": "https://arxiv.org/pdf/0809.3894",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 19,
+      "n_citations": 35
+    },
+    {
+      "title": "Energy Spectrum of Cosmic-Ray Electrons at TeV Energies",
+      "url": "https://arxiv.org/pdf/0811.3894",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 569
+    },
+    {
+      "title": "Very high energy gamma-ray observations of the galaxy clusters Abell 496 and Abell 85 with HESS",
+      "url": "https://arxiv.org/pdf/0812.1638",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 33
+    },
+    {
+      "title": "HESS Observations of the Prompt and Afterglow Phases of GRB 060602B",
+      "url": "https://arxiv.org/pdf/0809.2334",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 28
+    },
+    {
+      "title": "Simultaneous HESS and Chandra observations of Sagittarius A* during an X-ray flare",
+      "url": "https://arxiv.org/pdf/0812.3762",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 4
+    },
+    {
+      "title": "Search for gamma rays from dark matter annihilations around intermediate mass black holes with the HESS experiment",
+      "url": "https://arxiv.org/pdf/0806.2981",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 20
+    },
+    {
+      "title": "Limits on an Energy Dependence of the Speed of Light from a Flare of the Active Galaxy PKS 2155-304",
+      "url": "https://arxiv.org/pdf/0810.3475",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 96
+    },
+    {
+      "title": "Discovery of a VHE gamma-ray source coincident with the supernova remnant CTB 37A",
+      "url": "https://arxiv.org/pdf/0803.0702",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 44
+    },
+    {
+      "title": "HESS upper limits for Kepler&#8217;s supernova remnant",
+      "url": "https://arxiv.org/pdf/0806.3347",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 18
+    },
+    {
+      "title": "Chandra and HESS observations of the supernova remnant CTB 37B",
+      "url": "https://arxiv.org/pdf/0803.0682",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 23
+    },
+    {
+      "title": "Exploring a SNR/molecular cloud association within HESS J1745–303",
+      "url": "https://arxiv.org/pdf/0803.2844",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 58
+    },
+    {
+      "title": "Discovery of VHE γ-rays from the high-frequency-peaked BL Lacertae object RGB J0152+017",
+      "url": "https://arxiv.org/pdf/0802.4021",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 48
+    },
+    {
+      "title": "Discovery of very-high-energy γ-ray emission from the vicinity of PSR J1913+1011 with HESS",
+      "url": "https://arxiv.org/pdf/0802.3841",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 16
+    },
+    {
+      "title": "Discovery of very high energy gamma-ray emission coincident with molecular clouds in the W 28 (G6.4-0.1) field",
+      "url": "https://arxiv.org/pdf/0801.3555",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 171
+    },
+    {
+      "title": "Observations of the Sagittarius dwarf galaxy by the HESS experiment and search for a dark matter signal",
+      "url": "https://arxiv.org/pdf/0711.2369",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 21,
+      "n_citations": 96
+    },
+    {
+      "title": "Upper limits from HESS active galactic nuclei observations in 2005–2007",
+      "url": "https://arxiv.org/pdf/0711.3196",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 21
+    },
+    {
+      "title": "HESS observations and VLT spectroscopy of PG 1553+113",
+      "url": "https://arxiv.org/pdf/0710.5740",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 37
+    },
+    {
+      "title": "HESS very-high-energy gamma-ray sources without identified counterparts",
+      "url": "https://arxiv.org/pdf/0712.1173",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 14,
+      "n_citations": 86
+    },
+    {
+      "title": "New constraints on the mid-IR EBL from the HESS discovery of VHE γ-rays from 1ES 0229+200",
+      "url": "https://arxiv.org/pdf/0709.4584",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 153
+    },
+    {
+      "title": "Discovery of VHE γ-rays from the distant BL Lacertae 1ES 0347-121",
+      "url": "https://arxiv.org/pdf/0708.3021",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 45
+    },
+    {
+      "title": "An Exceptional Very High Energy Gamma-Ray Flare of PKS 2155–304",
+      "url": "https://arxiv.org/pdf/0706.0797",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 369
+    },
+    {
+      "title": "Search for pulsed VHE gamma-ray emission from young pulsars with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0702336",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 14,
+      "n_citations": 14
+    },
+    {
+      "title": "H.E.S.S. Observations of the Supernova Remnant RX J0852.0–4622: Shell-Type Morphology and Spectrum of a Widely Extended Very High Energy Gamma-Ray Source",
+      "url": "https://arxiv.org/pdf/astro-ph/0612495",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 42,
+      "n_citations": 129
+    },
+    {
+      "title": "Detection of VHE gamma-ray emission from the distant blazar 1ES 1101-232 with HESS and broadband characterisation",
+      "url": "https://arxiv.org/pdf/0705.2946",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 92
+    },
+    {
+      "title": "Discovery of two candidate pulsar wind nebulae in very-high-energy gamma rays",
+      "url": "https://arxiv.org/pdf/0705.1605",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 36
+    },
+    {
+      "title": "Discovery of a point-like very-high-energy γ-ray source in Monoceros",
+      "url": "https://arxiv.org/pdf/0704.0171",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 44
+    },
+    {
+      "title": "Detection of extended very-high-energy γ-ray emission towards the young stellar cluster Westerlund 2",
+      "url": "https://arxiv.org/pdf/astro-ph/0703427",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": null
+    },
+    {
+      "title": "First ground-based measurement of atmospheric Cherenkov light from cosmic rays",
+      "url": "https://arxiv.org/pdf/astro-ph/0701766",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 14,
+      "n_citations": 52
+    },
+    {
+      "title": "Fast Variability of Tera–Electron Volt γ Rays from the Radio Galaxy M87",
+      "url": "https://arxiv.org/pdf/astro-ph/0612016",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 16,
+      "n_citations": 288
+    },
+    {
+      "title": "HESS Observations of the Galactic Center Region and Their Possible Dark Matter Interpretation",
+      "url": "https://arxiv.org/pdf/astro-ph/0610509",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 203
+    },
+    {
+      "title": "Primary particle acceleration above 100 TeV in the shell-type supernova remnant RX J1713.7-3946 with deep HESS observations",
+      "url": "https://arxiv.org/pdf/astro-ph/0611813",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 193
+    },
+    {
+      "title": "3.9 day orbital modulation in the TeV γ-ray flux and spectrum from the X-ray binary LS 5039",
+      "url": "https://arxiv.org/pdf/astro-ph/0607192",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 156
+    },
+    {
+      "title": "Observations of the Crab nebula with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0607333",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 95
+    },
+    {
+      "title": "Energy dependent γ-ray morphology in the pulsar wind nebula HESS J1825–137",
+      "url": "https://arxiv.org/pdf/astro-ph/0607548",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 12,
+      "n_citations": 22
+    },
+    {
+      "title": "Discovery of the two “wings” of the Kookaburra complex in VHE γ-rays with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0606311",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 47
+    },
+    {
+      "title": "Discovery of very high energy γ-ray emission from the BL Lacertae object H 2356-309 with the HESS Cherenkov telescopes",
+      "url": "https://arxiv.org/pdf/astro-ph/0607569",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 34
+    },
+    {
+      "title": "Precision measurement of optical pulsation using a Cherenkov telescope",
+      "url": "https://arxiv.org/pdf/astro-ph/0604411",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 14,
+      "n_citations": 15
+    },
+    {
+      "title": "A low level of extragalactic background light as revealed by γ-rays from blazars",
+      "url": "https://arxiv.org/pdf/astro-ph/0508073",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 466
+    },
+    {
+      "title": "A detailed spectral and morphological study of the gamma-ray supernova remnant RX J1713.7–3946 with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0511678",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 196
+    },
+    {
+      "title": "Evidence for VHE γ-ray emission from the distant BL Lac PG 1553+113",
+      "url": "https://arxiv.org/pdf/astro-ph/0601545",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 9
+    },
+    {
+      "title": "First detection of a VHE gamma-ray spectral maximum from a cosmic source: HESS discovery of the Vela X nebula",
+      "url": "https://arxiv.org/pdf/astro-ph/0601575",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 45
+    },
+    {
+      "title": "Discovery of very-high-energy γ-rays from the Galactic Centre ridge",
+      "url": "https://arxiv.org/pdf/astro-ph/0603021",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": null
+    },
+    {
+      "title": "The H.E.S.S. Survey of the Inner Galaxy in Very High Energy Gamma Rays",
+      "url": "https://arxiv.org/pdf/astro-ph/0510397",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 56,
+      "n_citations": 34
+    },
+    {
+      "title": "A possible association of the new VHE γ-ray source HESS J1825–137 with the pulsar wind nebula G 18.0–0.7",
+      "url": "https://arxiv.org/pdf/astro-ph/0510394",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 37
+    },
+    {
+      "title": "Multi-wavelength observations of PKS 2155–304 with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0506593",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 15,
+      "n_citations": 51
+    },
+    {
+      "title": "Discovery of the binary pulsar PSR B1259-63 in very-high-energy gamma rays around periastron with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0506280",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 10,
+      "n_citations": 217
+    },
+    {
+      "title": "A search for very high energy γ-ray emission from the starburst galaxy NGC 253 with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0507370",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 7,
+      "n_citations": 1
+    },
+    {
+      "title": "Observations of selected AGN with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0507207",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 30
+    },
+    {
+      "title": "Serendipitous discovery of the unidentified extended TeV γ-ray source HESS J1303-631",
+      "url": "https://arxiv.org/pdf/astro-ph/0505219",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 31
+    },
+    {
+      "title": "Discovery of Very High Energy Gamma Rays Associated with an X-ray Binary",
+      "url": "https://arxiv.org/pdf/astro-ph/0508298",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 294
+    },
+    {
+      "title": "H.E.S.S. observations of PKS 2155-304",
+      "url": "https://arxiv.org/pdf/astro-ph/0411582",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 13,
+      "n_citations": 72
+    },
+    {
+      "title": "Detection of TeV γ-ray emission from the shell-type supernova remnant RX J0852.0-4622 with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0505380",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 76
+    },
+    {
+      "title": "Observations of Mkn 421 in 2004 with HESS at large zenith angles",
+      "url": "https://arxiv.org/pdf/astro-ph/0506319",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 57
+    },
+    {
+      "title": "Upper limits to the SN1006 multi-TeV gamma-ray flux from HESS observations",
+      "url": "https://arxiv.org/pdf/astro-ph/0502239",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 6,
+      "n_citations": 18
+    },
+    {
+      "title": "Discovery of VHE gamma rays from PKS 2005–489",
+      "url": "https://arxiv.org/pdf/astro-ph/0504520",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 25
+    },
+    {
+      "title": "Discovery of extended VHE gamma-ray emission from the asymmetric pulsar wind nebula in MSH 15-52 with HESS",
+      "url": "https://arxiv.org/pdf/astro-ph/0504120",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 78
+    },
+    {
+      "title": "A New Population of Very High Energy Gamma-Ray Sources in the Milky Way",
+      "url": "https://arxiv.org/pdf/astro-ph/0504380",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 11,
+      "n_citations": 271
+    },
+    {
+      "title": "Very high energy gamma rays from the composite SNR G0.9+0.1",
+      "url": "https://arxiv.org/pdf/astro-ph/0501265",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 83
+    },
+    {
+      "title": "Search for TeV emission from the region around PSR B1706–44 with the HESS experiment",
+      "url": "https://arxiv.org/pdf/astro-ph/0501512",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 5
+    },
+    {
+      "title": "High-energy particle acceleration in the shell of a supernova remnant",
+      "url": "https://arxiv.org/pdf/astro-ph/0411533",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 9,
+      "n_citations": 449
+    },
+    {
+      "title": "Very high energy gamma rays from the direction of Sagittarius A*",
+      "url": "https://arxiv.org/pdf/astro-ph/0408145",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 380
+    },
+    {
+      "title": "The status of the H.E.S.S. project",
+      "url": "https://arxiv.org/pdf/astro-ph/0403052",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 8,
+      "n_citations": 324
+    },
+    {
+      "title": "Calibration of cameras of the H.E.S.S. detector",
+      "url": "https://arxiv.org/pdf/astro-ph/0406658",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 29,
+      "n_citations": 217
+    },
+    {
+      "title": "The trigger system of the H.E.S.S. telescope array",
+      "url": "https://arxiv.org/pdf/astro-ph/0408375",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 20,
+      "n_citations": 121
+    },
+    {
+      "title": "The optical system of the H.E.S.S. imaging atmospheric Cherenkov telescopes, Part I: layout and components of the system",
+      "url": "https://arxiv.org/pdf/astro-ph/0308246",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 28,
+      "n_citations": 161
+    },
+    {
+      "title": "The optical system of the H.E.S.S. imaging atmospheric Cherenkov telescopes, Part II: mirror alignment and point spread function",
+      "url": "https://arxiv.org/pdf/astro-ph/0308247",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 23,
+      "n_citations": 68
+    },
+    {
+      "title": "On design studies for future 50 GeV arrays of imaging air Cherenkov telescopes",
+      "url": "https://arxiv.org/pdf/astro-ph/9901365",
+      "type": "pdf",
+      "sets": ["papers", "HESS"],
+      "n_pages": 5,
+      "n_citations": 9
+    }
+  ],
+  "documentation": [
+    {
+      "title": "Gammapy: API reference",
+      "url": "https://github.com/gammapy/gammapy/tree/v2.1/docs/api-reference",
+      "type": "folder",
+      "sets": ["docs", "api-reference"],
+      "n_pages": null
+    },
+    {
+      "title": "Gammapy: Getting started",
+      "url": "https://github.com/gammapy/gammapy/tree/v2.1/docs/getting-started",
+      "type": "folder",
+      "sets": ["docs", "getting-started"],
+      "n_pages": null
+    },
+    {
+      "title": "Gammapy: User guide",
+      "url": "https://github.com/gammapy/gammapy/tree/v2.1/docs/user-guide",
+      "type": "folder",
+      "sets": ["docs", "user-guide"],
+      "n_pages": null
+    }
+  ],
+  "examples": [
+    {
+      "title": "Gammapy: Model gallery",
+      "url": "https://github.com/gammapy/gammapy/tree/v2.1/examples/models",
+      "type": "folder",
+      "sets": ["examples", "models"],
+      "n_pages": null
+    },
+    {
+      "title": "Gammapy: Tutorials",
+      "url": "https://github.com/gammapy/gammapy/tree/v2.1/examples/tutorials",
+      "type": "folder",
+      "sets": ["examples", "tutorials"],
+      "n_pages": null
+    }
+  ]
+}

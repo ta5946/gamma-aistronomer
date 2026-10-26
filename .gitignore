@@ -1,0 +1,14 @@
+*.egg-info/
+.agents.env
+.env
+.idea
+.venv/
+__pycache__/
+backup/
+data/cache/
+opencode/workspace/
+pi/workspace/
+plot/
+prompts/*/user_prompt_*.md
+run_archive/
+spectrum_analysis*/

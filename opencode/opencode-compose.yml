@@ -1,0 +1,30 @@
+# to run interactively:
+#   docker compose -f opencode-compose.yml run --rm --build -it opencode
+# for a one-shot prompt:
+#   docker compose -f opencode-compose.yml run --rm --build opencode run "<your prompt>"
+services:
+  opencode:
+    build:
+      context: .
+      dockerfile: Dockerfile.gammapy
+    working_dir: /workspace
+    # fill the config template from .agents.env, then start opencode
+    entrypoint:
+      - sh
+      - -c
+      - |
+        mkdir -p /root/.config/opencode
+        envsubst '$$AGENT_LLM_ENDPOINT $$AGENT_LLM_API_KEY $$AGENT_LLM_MODEL_ID $$AGENT_LLM_MODEL_NAME $$COGNEE_MCP_URL' < /templates/opencode.json > /root/.config/opencode/opencode.json
+        exec opencode "$$@"
+      - opencode
+    env_file: ../.agents.env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./workspace:/workspace
+      - ./opencode.json:/templates/opencode.json:ro
+      - ../prompts/system_prompt.md:/workspace/AGENTS.md:ro
+      - ${CTAO_DATA_PATH:-../data/cache/gammapy/ctao-data}:/workspace/data/ctao-data:ro
+      - ${HGPS_PAPER_PATH:-../data/cache/hgps/1804.02432.pdf}:/workspace/paper/1804.02432.pdf:ro
+      - ${GAMMAPY_EBL_DATA_PATH:-../data/cache/gammapy/gammapy-datasets/2.1/ebl}:/workspace/data/ebl:ro
+      - ./workspace/opencode_stats:/root/.local/share/opencode

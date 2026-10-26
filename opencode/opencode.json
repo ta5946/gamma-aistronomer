@@ -1,0 +1,28 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "custom/${AGENT_LLM_MODEL_ID}",
+  "permission": "allow",
+  "provider": {
+    "custom": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Custom provider",
+      "options": {
+        "baseURL": "${AGENT_LLM_ENDPOINT}",
+        "apiKey": "${AGENT_LLM_API_KEY}"
+      },
+      "models": {
+        "${AGENT_LLM_MODEL_ID}": {
+          "name": "${AGENT_LLM_MODEL_NAME}"
+        }
+      }
+    }
+  },
+  "mcp": {
+    "cognee": {
+      "type": "remote",
+      "url": "${COGNEE_MCP_URL}",
+      "enabled": true,
+      "oauth": false
+    }
+  }
+}

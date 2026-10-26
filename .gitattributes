@@ -1,0 +1,2 @@
+# keep every text file LF in the repo, whatever the editor or OS writes
+* text=auto eol=lf

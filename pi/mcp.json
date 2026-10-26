@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "cognee": {
+      "url": "${COGNEE_MCP_URL}",
+      "directTools": true,
+      "exposeResources": false,
+      "toolPrefix": "server"
+    }
+  }
+}
